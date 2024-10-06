@@ -5,10 +5,6 @@ eureka:
   client:
     serviceUrl:
       defaultZone: http://localhost:8761/eureka/
-logging:
-  level:
-    org.springframework.cloud.gateway.filter.ratelimit.RedisRateLimiter: DEBUG
-    org.springframework.data.redis.connection: DEBUG
 
 spring:
   redis:
@@ -37,6 +33,10 @@ spring:
             - RewritePath=/api/employees/(?<remaining>.*), /employees/${remaining}
             - name: AuthFilter
             - name: MonetizationFilter
+            - name: APIQuotaLimitFilter
+              args:
+                quotaLimit: 10
+                quotaDuration: 60s
 
         - id: department_service
           uri: lb://department_service

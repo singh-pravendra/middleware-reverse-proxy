@@ -36,7 +36,9 @@ public class MonetizationFilter extends AbstractGatewayFilterFactory<Monetizatio
                     .retrieve()
                     .bodyToMono(Void.class)
                     .subscribe();
+
         }));
+
     }
 
     public static class Config {
