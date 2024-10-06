@@ -5,8 +5,6 @@
     <option name="linkedExternalProjectsSettings">
       <GradleProjectSettings>
         <option name="externalProjectPath" value="$PROJECT_DIR$/analytics-service" />
-        <option name="gradleHome" value="" />
-        <option name="gradleJvm" value="corretto-17" />
         <option name="modules">
           <set>
             <option value="$PROJECT_DIR$/analytics-service" />
@@ -14,38 +12,34 @@
         </option>
       </GradleProjectSettings>
       <GradleProjectSettings>
-        <option name="externalProjectPath" value="$PROJECT_DIR$/api-gateway-master" />
-        <option name="gradleJvm" value="corretto-17" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/department-service" />
         <option name="modules">
           <set>
-            <option value="$PROJECT_DIR$/api-gateway-master" />
+            <option value="$PROJECT_DIR$/department-service" />
           </set>
         </option>
       </GradleProjectSettings>
       <GradleProjectSettings>
-        <option name="externalProjectPath" value="$PROJECT_DIR$/department-service-master" />
-        <option name="gradleJvm" value="corretto-17" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/employee-service" />
         <option name="modules">
           <set>
-            <option value="$PROJECT_DIR$/department-service-master" />
+            <option value="$PROJECT_DIR$/employee-service" />
           </set>
         </option>
       </GradleProjectSettings>
       <GradleProjectSettings>
-        <option name="externalProjectPath" value="$PROJECT_DIR$/employee-service-master" />
-        <option name="gradleJvm" value="corretto-17" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/gateway" />
         <option name="modules">
           <set>
-            <option value="$PROJECT_DIR$/employee-service-master" />
+            <option value="$PROJECT_DIR$/gateway" />
           </set>
         </option>
       </GradleProjectSettings>
       <GradleProjectSettings>
-        <option name="externalProjectPath" value="$PROJECT_DIR$/service-registry-master" />
-        <option name="gradleJvm" value="corretto-17" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/service-registry" />
         <option name="modules">
           <set>
-            <option value="$PROJECT_DIR$/service-registry-master" />
+            <option value="$PROJECT_DIR$/service-registry" />
           </set>
         </option>
       </GradleProjectSettings>

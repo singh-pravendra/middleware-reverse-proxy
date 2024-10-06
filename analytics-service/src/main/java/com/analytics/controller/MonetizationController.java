@@ -1,7 +1,7 @@
 package com.analytics.controller;
 
-import com.analytics.dao.UsageDataRepository;
 import com.analytics.bean.UsageData;
+import com.analytics.dao.UsageDataRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 import reactor.core.publisher.Flux;
